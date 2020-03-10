@@ -1,0 +1,69 @@
+*--------------- Modelling Summary ---------------*
+
+TimeStamp:2017-Feb-10 14:12:35
+
+Variable Significance: (38 variables) 
+name
+CLT_SOLICITOR_OWN_IND    4456.164421
+TP_AFI_MX                1084.440894
+TP_AFI_MN                 851.524349
+TP_DEPRIV_IND_MX          826.506617
+TP_MOSAIC_MN              456.972715
+CLAIM_3MNTHS              456.754111
+TP_KA_DIST_MN             370.688417
+TP_DEPRIV_IND_MN          344.842733
+RSPNSBLTY                 337.875101
+TP_KA_DIST_MX             267.780266
+CRED_HH_COMPOSITION       238.667114
+TP_MOSAIC_MX              213.066379
+VEH_AGE_ACC               206.635715
+Incident_Veh_Type         169.467080
+Damage_Severity           168.862314
+Inci_Liab_Stance          167.258878
+Incident_Status           166.958126
+CLM_CLMNT_CT              165.083826
+Incident_Type_OLD         165.063303
+TP_Recovery_Type          164.863027
+Incident_Veh_Yr_Made      163.975449
+Conversion_Status         163.780215
+Type_of_Cover             145.848326
+COST_EST_PD_AMT           145.644144
+DIST_FREQ_AD              145.010745
+Claim_Own_Dam             138.822701
+Inci_Liab_call_agree      125.281264
+TP_Type                   108.012243
+CLM_BI_TP_IND             105.865022
+TP_DEPRIV_IND_BAND_MN     103.803315
+ARI1                      102.032000
+TP_DEPRIV_IND_BAND_MX      98.555790
+DIST_COST_PD               93.911857
+LOSS_TIME                  86.081413
+DIST_FREQ_PD               79.173438
+CAUSE_CODE                 74.557369
+DIST_COST_AD               67.319050
+CLT_MED_HOSPITAL_IND       61.298229
+
+
+Training Info:
+N= 16065  Pos= 3213  Neg= 12852  Pos_rate= 20.0%
+
+Testing Info:
+N= 27113  Pos= 1368  Neg= 25745  Pos_rate= 5.0455%
+
+*-------------------------------------------------*
+
+------------> LinearDiscriminantAnalysis
+ TRAIN : AUROC=0.8744  ACC=0.8637  SENS=0.5783  PREC= 0.6899
+ TEST  : AUROC=0.8659  ACC=0.9129  SENS=0.5709  PREC= 0.3057
+------------> LogisticRegression
+ TRAIN : AUROC=0.8762  ACC=0.8658  SENS=0.5428  PREC= 0.7174
+ TEST  : AUROC=0.8689  ACC=0.9242  SENS=0.5263  PREC= 0.3383
+------------> DecisionTreeClassifier
+ TRAIN : AUROC=0.8678  ACC=0.8552  SENS=0.5272  PREC= 0.6771
+ TEST  : AUROC=0.8548  ACC=0.9082  SENS=0.4898  PREC= 0.2724
+------------> SVC
+ TRAIN : AUROC=0.8641  ACC=0.8372  SENS=0.2126  PREC= 0.8893
+ TEST  : AUROC=0.8466  ACC=0.9519  SENS=0.1930  PREC= 0.5677
+------------> RandomForestClassifier
+ TRAIN : AUROC=0.8694  ACC=0.8506  SENS=0.3075  PREC= 0.8495
+ TEST  : AUROC=0.8565  ACC=0.9459  SENS=0.2741  PREC= 0.4417

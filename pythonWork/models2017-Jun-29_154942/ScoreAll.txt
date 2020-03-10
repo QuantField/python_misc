@@ -1,0 +1,13 @@
+Scoring..:
+N= 90375  Pos= 4581  Neg= 85794  Pos_rate= 5.0688%
+
+------------> LinearDiscriminantAnalysis
+ SCORE : AUROC=0.8712  ACC=0.9138  SENS=0.5761  PREC= 0.3110
+------------> LogisticRegression
+ SCORE : AUROC=0.8739  ACC=0.9246  SENS=0.5379  PREC= 0.3439
+------------> DecisionTreeClassifier
+ SCORE : AUROC=0.8620  ACC=0.9113  SENS=0.5160  PREC= 0.2895
+------------> SVC
+ SCORE : AUROC=0.8582  ACC=0.9526  SENS=0.2067  PREC= 0.5937
+------------> RandomForestClassifier
+ SCORE : AUROC=0.8674  ACC=0.9388  SENS=0.3595  PREC= 0.3882
